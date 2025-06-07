@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep Mamah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Resep Mamah</h1>
+        <p class="subtitle">Temukan resep masakan, kue, dan dessert dari bahan yang ada di rumah!</p>
+    </header>
+    <main>
+        <section class="input-section">
+            <label for="ingredients">Masukkan bahan-bahan yang tersedia (pisahkan dengan koma):</label>
+            <input type="text" id="ingredients" placeholder="Contoh: telur, tepung, gula, ayam" autocomplete="off">
+            <button id="findRecipes">Cari Resep</button>
+        </section>
+        <section id="recipesSection" class="recipes-section">
+            <!-- Hasil resep akan muncul di sini -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Resep Mamah</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
