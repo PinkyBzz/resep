@@ -271,6 +271,127 @@ const recipes = [
             "Tuang ke cetakan, dinginkan hingga set.",
             "Sajikan dingin."
         ]
+    },
+    // Tambahan menu NASI
+    {
+        name: "Nasi Uduk Betawi",
+        category: "Masakan",
+        ingredients: ["nasi", "santan", "daun salam", "serai", "daun pandan", "garam", "bawang goreng"],
+        steps: [
+            "Cuci beras hingga bersih, tiriskan.",
+            "Masak santan dengan daun salam, serai, daun pandan, dan garam hingga mendidih.",
+            "Masukkan beras, aduk rata, masak hingga santan terserap.",
+            "Kukus beras hingga matang.",
+            "Sajikan nasi uduk dengan taburan bawang goreng dan lauk pelengkap."
+        ]
+    },
+    {
+        name: "Nasi Liwet Solo",
+        category: "Masakan",
+        ingredients: ["nasi", "santan", "daun salam", "serai", "daun pandan", "ikan teri", "bawang merah", "bawang putih", "garam"],
+        steps: [
+            "Tumis bawang merah dan bawang putih hingga harum.",
+            "Masukkan beras, santan, daun salam, serai, daun pandan, dan garam.",
+            "Masak hingga santan terserap, tambahkan ikan teri.",
+            "Kukus hingga matang.",
+            "Sajikan hangat."
+        ]
+    },
+    {
+        name: "Nasi Kuning",
+        category: "Masakan",
+        ingredients: ["nasi", "santan", "kunyit", "daun salam", "serai", "daun pandan", "garam"],
+        steps: [
+            "Cuci beras, tiriskan.",
+            "Masak santan dengan kunyit, daun salam, serai, daun pandan, dan garam.",
+            "Masukkan beras, aduk rata, masak hingga santan terserap.",
+            "Kukus hingga matang.",
+            "Sajikan dengan lauk pelengkap."
+        ]
+    },
+    {
+        name: "Nasi Goreng Ikan Asin",
+        category: "Masakan",
+        ingredients: ["nasi", "ikan asin", "bawang merah", "bawang putih", "cabai merah", "telur", "minyak goreng", "daun bawang"],
+        steps: [
+            "Goreng ikan asin, suwir-suwir.",
+            "Tumis bawang merah, bawang putih, dan cabai hingga harum.",
+            "Masukkan telur, orak-arik.",
+            "Masukkan nasi dan ikan asin, aduk rata.",
+            "Tambahkan daun bawang, aduk sebentar, angkat dan sajikan."
+        ]
+    },
+    {
+        name: "Nasi Bakar Teri",
+        category: "Masakan",
+        ingredients: ["nasi", "ikan teri", "daun kemangi", "sambal", "daun pisang", "bawang merah", "bawang putih", "cabai merah", "minyak goreng"],
+        steps: [
+            "Tumis bawang merah, bawang putih, dan cabai hingga harum.",
+            "Masukkan ikan teri dan daun kemangi, aduk rata.",
+            "Campur tumisan dengan nasi dan sambal.",
+            "Bungkus nasi dengan daun pisang, bakar di atas teflon hingga harum.",
+            "Sajikan hangat."
+        ]
+    },
+    // MENU IKAN
+    {
+        name: "Ikan Goreng Kremes",
+        category: "Masakan",
+        ingredients: ["ikan nila", "tepung beras", "tepung terigu", "bawang putih", "ketumbar", "garam", "air", "minyak goreng"],
+        steps: [
+            "Bersihkan ikan, lumuri dengan bawang putih, ketumbar, dan garam.",
+            "Campur tepung beras, tepung terigu, dan air hingga menjadi adonan kental.",
+            "Celupkan ikan ke adonan, goreng hingga matang dan kremes.",
+            "Angkat dan sajikan dengan sambal."
+        ]
+    },
+    {
+        name: "Pepes Ikan Mas",
+        category: "Masakan",
+        ingredients: ["ikan mas", "daun kemangi", "tomat", "bawang merah", "bawang putih", "cabai merah", "kunyit", "jahe", "daun salam", "daun pisang", "garam"],
+        steps: [
+            "Haluskan bumbu, lumuri ikan mas.",
+            "Tambahkan daun kemangi dan tomat.",
+            "Bungkus ikan dengan daun pisang, sematkan daun salam.",
+            "Kukus atau bakar hingga matang.",
+            "Sajikan hangat."
+        ]
+    },
+    {
+        name: "Ikan Bakar Kecap",
+        category: "Masakan",
+        ingredients: ["ikan nila", "kecap manis", "bawang putih", "bawang merah", "cabai merah", "jeruk nipis", "garam", "minyak goreng"],
+        steps: [
+            "Bersihkan ikan, lumuri dengan jeruk nipis dan garam.",
+            "Haluskan bumbu, campur dengan kecap.",
+            "Lumuri ikan dengan bumbu kecap.",
+            "Bakar ikan sambil dioles sisa bumbu hingga matang.",
+            "Sajikan dengan sambal dan lalapan."
+        ]
+    },
+    {
+        name: "Ikan Kuah Kuning",
+        category: "Masakan",
+        ingredients: ["ikan tongkol", "kunyit", "jahe", "bawang merah", "bawang putih", "serai", "daun salam", "tomat", "air", "garam"],
+        steps: [
+            "Tumis bumbu halus dan rempah hingga harum.",
+            "Masukkan ikan, aduk sebentar.",
+            "Tuang air, masukkan tomat dan garam.",
+            "Masak hingga ikan matang dan bumbu meresap.",
+            "Sajikan hangat."
+        ]
+    },
+    {
+        name: "Pindang Ikan Patin",
+        category: "Masakan",
+        ingredients: ["ikan patin", "nanas", "tomat", "bawang merah", "bawang putih", "jahe", "serai", "daun salam", "air", "garam", "gula"],
+        steps: [
+            "Tumis bumbu halus dan rempah hingga harum.",
+            "Masukkan ikan patin, aduk sebentar.",
+            "Tuang air, masukkan nanas, tomat, garam, dan gula.",
+            "Masak hingga ikan matang dan kuah segar.",
+            "Sajikan hangat."
+        ]
     }
     // Tambahkan resep lain di sini jika ingin lebih banyak
 ];
